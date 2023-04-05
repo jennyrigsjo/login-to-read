@@ -1,0 +1,148 @@
+# Copyright (C) 2023 Jenny Rigsjö
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Log In To Read 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/login-to-read\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05T13:51:40+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: login-to-read\n"
+
+#. Plugin Name of the plugin
+#: includes/admin/class-ltr-admin.php:61
+#: includes/class-ltr-taxonomy.php:35
+#: includes/class-ltr-taxonomy.php:36
+#: includes/class-ltr-taxonomy.php:37
+#: includes/class-ltr-taxonomy.php:58
+msgid "Log In To Read"
+msgstr ""
+
+#. Description of the plugin
+msgid "Users must log in to be able to view selected posts."
+msgstr ""
+
+#. Author of the plugin
+msgid "Jenny Rigsjö"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://jennyrigsjo.se"
+msgstr ""
+
+#: includes/admin/class-ltr-admin.php:68
+msgid "Enable login requirement for the following post types:"
+msgstr ""
+
+#: includes/admin/class-ltr-admin.php:76
+msgid "Show 'Log In To Read' admin column:"
+msgstr ""
+
+#: includes/admin/class-ltr-admin.php:131
+msgid "Customize settings for the \"Log in To Read\" plugin"
+msgstr ""
+
+#: includes/admin/class-ltr-admin.php:188
+msgid "Settings"
+msgstr ""
+
+#: includes/class-ltr-core.php:63
+msgid "Log in to read this post."
+msgstr ""
+
+#: includes/class-ltr-functions.php:45
+msgid "Please log in to read this post."
+msgstr ""
+
+#: includes/class-ltr-options.php:127
+msgid "Show admin column"
+msgstr ""
+
+#: includes/class-ltr-options.php:128
+msgid "Do not show admin column"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:38
+msgid "All Log In To Read options"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:39
+msgid "Edit Log In To Read option"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:40
+msgid "View Log In To Read option"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:41
+msgid "Update Log In To Read option"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:42
+msgid "Add new Log In To Read option"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:43
+msgid "New Log In To Read option name"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:44
+msgid "Parent Log In To Read option"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:45
+msgid "Parent Log In To Read option:"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:46
+msgid "Search Log In To Read options"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:47
+msgid "Popular Log In To Read options"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:48
+msgid "Separate Log In To Read options with commas"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:49
+msgid "Add or remove Log In To Read options"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:50
+msgid "Choose among most used Log In To Read options"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:51
+msgid "No Log In To Read options found"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:52
+msgid "No Log In To Read options"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:53
+msgid "Navigate list of Log In To Read options"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:54
+msgid "List of Log In To Read options"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:60
+msgid "Log In To Read options for post types"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:95
+msgid "Require user login"
+msgstr ""
+
+#: includes/class-ltr-taxonomy.php:101
+msgid "Please log in to view this post"
+msgstr ""

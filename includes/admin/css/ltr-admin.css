@@ -1,0 +1,51 @@
+/**
+ * CSS for admin pages.
+ *
+ * @since      1.0.0
+ * @package    LTR
+ * @subpackage LTR/includes/admin/css
+ *
+ */
+
+
+ /**
+  * Tooltip style rules.
+  */
+.ltr_tooltip_default {
+    background-color: black;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 0.85em;
+    padding: 0px 6px;
+    position: relative;
+}
+
+.ltr_tooltip {
+    border-bottom: 2px dotted black;
+    position: relative;
+}
+
+.ltr_tooltip_default .ltr_tooltiptext,
+.ltr_tooltip .ltr_tooltiptext {
+    background-color: black;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 0.85em;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: -65px;
+    visibility: hidden;
+    width: 120px;
+    z-index: 1;
+}
+
+.ltr_tooltip_default:hover .ltr_tooltiptext,
+.ltr_tooltip:hover .ltr_tooltiptext {
+    visibility: visible;
+}
+
+
+.ltr_setting_description {
+    font-size: 0.85em!important;
+}
