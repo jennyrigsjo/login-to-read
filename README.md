@@ -5,7 +5,7 @@ Tags: post, content, restrict, access, visibility, login
 Requires PHP: 7.4
 Requires at least: 6.1
 Tested up to: 6.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.txt
 
