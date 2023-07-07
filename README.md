@@ -26,7 +26,7 @@ The plugin adds a 'Log In To Read' metabox to the quick edit panel and editor si
 3. Find the 'Log In To Read' metabox in the quick edit panel or editor sidebar and check the option 'Require user login'.
 
 == Available admin options ==
-
+In Settings > Reading > Log In To Read:
 * Select the post types for which login requirement should be enabled (default 'post' and 'page').
 * Hide/show the 'Login To Read' column in the admin posts list.
 
@@ -40,5 +40,9 @@ The plugin adds a 'Log In To Read' metabox to the quick edit panel and editor si
 
 = 1.0 =
 * Initial release.
+
+= 1.0.1 =
+* Minor redirect bugfix.
+* Minor general code cleanup, including improved comments for development purposes.
 
 == Upgrade Notice ==
