@@ -6,7 +6,7 @@ Description:		Restrict access to selected posts to logged-in users.
 Author:				Jenny Rigsjö
 Author URI:			https://jennyrigsjo.se
 Tags:				post, visibility, access, restrict, login
-Version:			1.0.0
+Version:			1.0.1
 Requires PHP:		7.4
 Requires at least:	6.2
 Tested up to:		6.2
