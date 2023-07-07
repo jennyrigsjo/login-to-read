@@ -28,24 +28,27 @@ class LTR_Core {
 	*
 	* @uses LTR_Functions::post_requires_login()
 	*/
-	public function login_to_see_post( $query ) {
+	public function redirect_to_login() {
 
-	   if ( !is_singular() || is_user_logged_in() ) {
-	       return;
-	   }
+		$selected_post_types = LTR_Options::selected_post_types();
 
-	   $current_post_id = get_the_id();
-	   $post_requires_login = LTR_Functions::post_requires_login( $current_post_id );
+	    if ( is_singular($selected_post_types) && !is_user_logged_in() ) {
 
-	   if ( $post_requires_login ) {
+			$current_post_id = get_the_id();
+			$post_requires_login = LTR_Functions::post_requires_login( $current_post_id );
 
-	       $redirect_after_login = get_permalink( $current_post_id );
-	       $login_url = wp_login_url( $redirect_after_login );
-		   $login_required = add_query_arg('login_required', 'true', $login_url);
+			if ( $post_requires_login ) {
 
-	       wp_safe_redirect( $login_required );
-	       exit;
-	   }
+				$redirect_after_login = get_permalink( $current_post_id );
+				$login_url = wp_login_url( $redirect_after_login );
+				$login_required = add_query_arg('login_required', 'true', $login_url);
+
+				wp_safe_redirect( $login_required );
+				exit;
+			}
+
+	    }
+
 	}
 
 
