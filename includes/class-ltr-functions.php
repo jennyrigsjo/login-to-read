@@ -36,7 +36,11 @@ class LTR_Functions {
 	/**
 	 * Return a login message.
 	 *
-	 * @param string $filter_hook_name (optional) The name of a filter hook that can be used to enable customization of the message.
+	 * To customize the returned messsage, create a custom filter hook ('my_filter_hook') and
+	 * a custom callback ('my_callback') that takes a login message as parameter.
+	 * Attach 'my_callback' to 'my_filter_hook', then pass the name of the hook ('my_filter_hook') to this method.
+	 *
+	 * @param string $filter_hook_name (optional) The name of a custom filter hook that can be used to customize the login message.
 	 *
 	 * @since	1.0.0
 	 */
