@@ -32,7 +32,7 @@ define( 'LTR_NAME', basename( __FILE__ ) );
 /**
  * Current plugin version.
  */
-define( 'LTR_VERSION', '1.0.0' );
+define( 'LTR_VERSION', '1.0.1' );
 
 
 /**
