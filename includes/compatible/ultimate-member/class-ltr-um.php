@@ -31,7 +31,7 @@ class LTR_UM {
 		$login_required = $_GET['login_required'] ?? 'false';
 
 		if ( $login_required === 'true' ) {
-			$filter_hook_name = 'ltr_um_login_message';
+			$filter_hook_name = 'ltr_um_login_message'; //hook to enable message customization
 			$message = LTR_Functions::login_message($filter_hook_name);
 			echo $message;
 		}
