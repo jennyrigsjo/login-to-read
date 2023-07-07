@@ -5,7 +5,7 @@
  *
  * Defines code to run during plugin removal/uninstallation.
  *
- * Defines methods to remove all data created by the plugin, including custom taxonomies and terms.
+ * Defines methods to remove all data created by the plugin, including options, custom taxonomies and terms.
  *
  * @since      1.0.0
  * @package    LTR/includes
