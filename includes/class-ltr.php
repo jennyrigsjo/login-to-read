@@ -232,7 +232,8 @@ class LTR {
 
 		$plugin_core = new LTR_Core();
 
-		$this->loader->add_action( 'pre_get_posts', $plugin_core, 'login_to_see_post' );
+		//$this->loader->add_action( 'pre_get_posts', $plugin_core, 'redirect_to_login' );
+		$this->loader->add_action( 'template_redirect', $plugin_core, 'redirect_to_login' );
 		$this->loader->add_filter( 'get_the_excerpt', $plugin_core, 'hide_post_excerpt', 999, 2 );
 		$this->loader->add_filter( 'login_message', $plugin_core, 'login_message' );
 	}
